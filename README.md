@@ -1,8 +1,17 @@
 # Pong
 
-## Features
+Pong is a video conferencing app. Powered by LiveKit and WebRTC.
 
-- No Authentication
-- Room Number and Username(persistent)
-- Controls -> Mute and Unmute, Video On and Off, Leave
-- Chat maybe
+## Development
+
+Pong uses Pnpm as its package manager. To install dependencies, run:
+
+```bash
+pnpm install
+```
+
+To run the app in development mode, run:
+
+```bash
+pnpm dev
+```
