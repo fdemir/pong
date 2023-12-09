@@ -1,8 +1,8 @@
-import { itemRouter } from "./routes/item";
+import { roomRouter } from "./routes/room";
 import { router } from "./trpc";
 
 export const appRouter = router({
-  item: itemRouter,
+  room: roomRouter,
 });
 
 export type AppRouter = typeof appRouter;

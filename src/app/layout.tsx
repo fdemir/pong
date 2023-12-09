@@ -1,8 +1,9 @@
+import "../globals.css";
 import Provider from "./_trpc/Provider";
 
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+export const metadata = {
+  title: "Pong",
+};
 
 export default function RootLayout({
   children,
@@ -11,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="dark">
         <Provider>{children}</Provider>
       </body>
     </html>
