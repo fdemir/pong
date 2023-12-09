@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "biome format src --write",
+    "lint": "biome lint src"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -30,6 +32,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "@types/node": "20.8.10",
     "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
